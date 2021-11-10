@@ -4,7 +4,6 @@ html{
 
 body {
   font-family: Mulish, sans-serif;
-  background-color: #7d7987;
 }
 
 /*Заголовок и текст блока*/
@@ -73,7 +72,7 @@ li{
     box-sizing: border-box;
 
     margin-bottom: 37px;
-
+    margin-top: 80px;
 }
 img{
     height: 95px;
@@ -82,11 +81,6 @@ img{
     flex-direction: column;
 
     margin: 0 auto 0 0;
-}
-
-.contentSections{
-    padding: 0 50px 46px 0;
-    flex-grow: 1;
 }
 
 .headSection{
@@ -113,4 +107,23 @@ img{
     flex-grow: 1;
 }
 /*Секция с карточками*/
+
+/*Кнопка*/
+button{
+    background: none;
+    border: 1.4px solid #458ff6;
+    border-radius: 55px;
+    color: #458ff6;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    width: 200px;
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 72px auto;
+}
+/*Кнопка*/
 
